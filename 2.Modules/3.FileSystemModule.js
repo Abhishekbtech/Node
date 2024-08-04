@@ -67,34 +67,36 @@ const fs = require("node:fs");
 // ----------- RENAME a FILE ------------
 
 
-fs.rename(
-    "./fileSystem/filesszzzz.txt",
-    "./fileSystem/file.txt",
-    (error) => {
-        if (error) {
-            console.log("error", error);
-        } else {
-            console.log("RENAME SUCCESSFULL");
-        }
-    }
-);
+// fs.rename(
+//     "./fileSystem/filesszzzz.txt",
+//     "./fileSystem/file.txt",
+//     (error) => {
+//         if (error) {
+//             console.log("error", error);
+//         } else {
+//             console.log("RENAME SUCCESSFULL");
+//         }
+//     }
+// );
+
+
 
 
 // ------- ASYNC -----------------------------
 
-/*
+
 console.log("1");
 
 fs.readFile("./fileSystem/file.txt", (error, data) => {
-  if (error) {
-  } else {
-    console.log(data.toString());
-  }
+    if (error) {
+    } else {
+        console.log(data.toString());
+    }
 });
 
 console.log("3");
 
-*/
+
 
 /*
 Answer:::
