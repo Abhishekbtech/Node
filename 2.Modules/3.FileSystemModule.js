@@ -39,30 +39,30 @@ const fs = require("node:fs");
 // ---------- UPDATE a FILE -------------
 
 
-fs.appendFile(
-    "./fileSystem/filesszzzz.txt",
-    "\n Name of students which are in tthe class",
-    (error) => {
-        if (error) {
-            console.log("error in updating file");
-        }else{
-            console.log("File updated successfully");
-        }
-    }
-);
+// fs.appendFile(
+//     "./fileSystem/filesszzzz.txt",
+//     "\n Name of students which are in tthe class",
+//     (error) => {
+//         if (error) {
+//             console.log("error in updating file");
+//         }else{
+//             console.log("File updated successfully");
+//         }
+//     }
+// );
 
 
 // ---------- DELETE a FILE -------------
 
-/*
+
 fs.unlink("./fileSystem/filesszzzz.txt", (error) => {
-  if (error) {
-    console.log("error", error);
-  } else {
-    console.log("file is deleted");
-  }
+    if (error) {
+        console.log("error", error);
+    } else {
+        console.log("file is deleted");
+    }
 });
-*/
+
 
 // ----------- RENAME a FILE ------------
 
