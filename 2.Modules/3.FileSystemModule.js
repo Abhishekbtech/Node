@@ -55,30 +55,30 @@ const fs = require("node:fs");
 // ---------- DELETE a FILE -------------
 
 
-fs.unlink("./fileSystem/filesszzzz.txt", (error) => {
-    if (error) {
-        console.log("error", error);
-    } else {
-        console.log("file is deleted");
-    }
-});
+// fs.unlink("./fileSystem/filesszzzz.txt", (error) => {
+//     if (error) {
+//         console.log("error", error);
+//     } else {
+//         console.log("file is deleted");
+//     }
+// });
 
 
 // ----------- RENAME a FILE ------------
 
-/*
+
 fs.rename(
-  "./fileSystem/filesszzzz copy.txt",
-  "./fileSystem/file.txt",
-  (error) => {
-    if (error) {
-      console.log("error", error);
-    } else {
-      console.log("RENAME SUCCESSFULL");
+    "./fileSystem/filesszzzz.txt",
+    "./fileSystem/file.txt",
+    (error) => {
+        if (error) {
+            console.log("error", error);
+        } else {
+            console.log("RENAME SUCCESSFULL");
+        }
     }
-  }
 );
-*/
+
 
 // ------- ASYNC -----------------------------
 
