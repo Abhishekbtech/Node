@@ -23,32 +23,35 @@ const fs = require("node:fs");
 // ---------- READ a FILE -------------
 
 
-fs.readFile("./fileSystem/filesszzzz.txt", (error, data) => {
-    if (error) {
-        console.log("here is reading error", error);
-    } else {
-        console.log("HERE MY FILE DATA ::::");
+// fs.readFile("./fileSystem/filesszzzz.txt", (error, data) => {
+//     if (error) {
+//         console.log("here is reading error", error);
+//     } else {
+//         console.log("HERE MY FILE DATA ::::");
 
-        // in here data is in Buffer FORMAT we need to convert it to string
-        console.log(data);
-        console.log(data.toString());
-    }
-});
+//         // in here data is in Buffer FORMAT we need to convert it to string
+//         console.log(data);
+//         console.log(data.toString());
+//     }
+// });
 
 
 // ---------- UPDATE a FILE -------------
 
-/*
+
 fs.appendFile(
-  "./fileSystem/filesszzzz.txt",
-  "\n Name of students which are in tthe class",
-  (error) => {
-    if (error) {
-      console.log("error in updating file");
+    "./fileSystem/filesszzzz.txt",
+    "\n Name of students which are in tthe class",
+    (error) => {
+        if (error) {
+            console.log("error in updating file");
+        }else{
+            console.log("File updated successfully");
+        }
     }
-  }
 );
-*/
+
+
 // ---------- DELETE a FILE -------------
 
 /*
