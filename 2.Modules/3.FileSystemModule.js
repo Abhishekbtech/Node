@@ -7,34 +7,34 @@ const fs = require("node:fs");
 // --------- CREATE A FILE -----------
 
 
-fs.appendFile(
-    "./fileSystem/filesszzzz.txt",
-    "Hi there Node Js WOrld !!!",
-    (error) => {
-        if (error) {
-            console.log(error, "err orrrr utkarsh");
-        }else{
-            console.log("File created successfully");
-        }
-    }
-);
+// fs.appendFile(
+//     "./fileSystem/filesszzzz.txt",
+//     "Hi there Node Js WOrld !!!",
+//     (error) => {
+//         if (error) {
+//             console.log(error, "err orrrr utkarsh");
+//         }else{
+//             console.log("File created successfully");
+//         }
+//     }
+// );
 
 
 // ---------- READ a FILE -------------
 
-/*
-fs.readFile("./fileSystem/filesszzzz.txt", (error, data) => {
-  if (error) {
-    console.log("here is reading error", error);
-  } else {
-    console.log("HERE MY FILE DATA ::::");
 
-    // in here data is in Buffer FORMAT we need to convert it to string
-    console.log(data);
-    console.log(data.toString());
-  }
+fs.readFile("./fileSystem/filesszzzz.txt", (error, data) => {
+    if (error) {
+        console.log("here is reading error", error);
+    } else {
+        console.log("HERE MY FILE DATA ::::");
+
+        // in here data is in Buffer FORMAT we need to convert it to string
+        console.log(data);
+        console.log(data.toString());
+    }
 });
-*/
+
 
 // ---------- UPDATE a FILE -------------
 
