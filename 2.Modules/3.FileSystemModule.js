@@ -113,12 +113,12 @@ Hi there Node Js WOrld !!!
 // ------------------ SYNCHRONOUS ----------------
 
 
-console.log("1");
+// console.log("1");
 
-const bufferData = fs.readFileSync("./fileSystem/file.txt");
-console.log(bufferData.toString(), "bufferData");
+// const bufferData = fs.readFileSync("./fileSystem/file.txt");
+// console.log(bufferData.toString(), "bufferData");
 
-console.log("3");
+// console.log("3");
 
 
 /*
