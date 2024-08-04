@@ -85,16 +85,16 @@ const fs = require("node:fs");
 // ------- ASYNC -----------------------------
 
 
-console.log("1");
+// console.log("1");
 
-fs.readFile("./fileSystem/file.txt", (error, data) => {
-    if (error) {
-    } else {
-        console.log(data.toString());
-    }
-});
+// fs.readFile("./fileSystem/file.txt", (error, data) => {
+//     if (error) {
+//     } else {
+//         console.log(data.toString());
+//     }
+// });
 
-console.log("3");
+// console.log("3");
 
 
 
@@ -108,16 +108,18 @@ Hi there Node Js WOrld !!!
 
 */
 
+
+
 // ------------------ SYNCHRONOUS ----------------
 
-/*
+
 console.log("1");
 
 const bufferData = fs.readFileSync("./fileSystem/file.txt");
 console.log(bufferData.toString(), "bufferData");
 
 console.log("3");
-*/
+
 
 /*
   Answer
