@@ -1,41 +1,27 @@
 // --------------- 1. setTimeout
 
 
-console.log("a");
+// console.log("a");
 
-setTimeout(() => {
-    console.log("c");
-}, 0);
+// setTimeout(() => {
+//     console.log("c");
+// }, 0);
 
-console.log("b");
+// console.log("b");
 
 
-/*
-    Answer
-    a
-    b
-    c
-
-*/
 
 // --------------- 2. setInterval
-/*
+
+
 console.log("a");
 
 setInterval(() => {
-  console.log("b");
+    console.log("b");
 }, 1000);
 console.log("c");
 
-*/
 
-/*
-    Answer
-    a
-    c
-    b
-
-*/
 
 // --------------- 3. setImmediate
 
