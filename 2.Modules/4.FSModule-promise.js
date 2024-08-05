@@ -9,14 +9,14 @@ const fsPromise = require("node:fs").promises;
 
 
 
-async function readFile() {
-    try {
-        const data = await fsPromise.readFile("./fileSystem/file.txt");
-        console.log(data.toString(), "datasss");
-    } catch (error) {
-        console.log(error);
-    }
-}
+// async function readFile() {
+//     try {
+//         const data = await fsPromise.readFile("./fileSystem/file.txt");
+//         console.log(data.toString(), "datasss");
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
 
 readFile();
 
