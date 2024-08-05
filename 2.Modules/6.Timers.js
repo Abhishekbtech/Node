@@ -14,31 +14,22 @@
 // --------------- 2. setInterval
 
 
-console.log("a");
+// console.log("a");
 
-setInterval(() => {
-    console.log("b");
-}, 1000);
-console.log("c");
+// setInterval(() => {
+//     console.log("b");
+// }, 1000);
+// console.log("c");
 
 
 
 // --------------- 3. setImmediate
 
-/*
+
 console.log("a");
 
 setImmediate(() => {
-  console.log("hello");
+    console.log("hello");
 });
 
 console.log("B");
-*/
-
-/*
-    Answer
-    a
-    b
-    Hello
-
-*/
