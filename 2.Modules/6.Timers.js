@@ -26,10 +26,10 @@
 // --------------- 3. setImmediate
 
 
-console.log("a");
+// console.log("a");
 
-setImmediate(() => {
-    console.log("hello");
-});
+// setImmediate(() => {
+//     console.log("hello");
+// });
 
-console.log("B");
+// console.log("B");
