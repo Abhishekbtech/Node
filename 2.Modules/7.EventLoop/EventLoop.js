@@ -106,31 +106,31 @@ console.log("b");
 // Activity 6
 
 
-console.log("a");
+// console.log("a");
 
-setTimeout(() => {
-  console.log("settimeout 1");
-}, 0);
+// setTimeout(() => {
+//   console.log("settimeout 1");
+// }, 0);
 
-setTimeout(() => {
-  console.log("settimeout 2");
-}, 0);
+// setTimeout(() => {
+//   console.log("settimeout 2");
+// }, 0);
 
-setTimeout(() => {
-  console.log("settimeout 3");
-}, 0);
+// setTimeout(() => {
+//   console.log("settimeout 3");
+// }, 0);
 
-process.nextTick(() => console.log("this is process 1"));
-process.nextTick(() => console.log("this is process 2"));
-process.nextTick(() => {
-  console.log("this is process 3");
+// process.nextTick(() => console.log("this is process 1"));
+// process.nextTick(() => console.log("this is process 2"));
+// process.nextTick(() => {
+//   console.log("this is process 3");
 
-  process.nextTick(() => {
-    console.log("this is process 3.1 inside the process 3");
-  });
-});
+//   process.nextTick(() => {
+//     console.log("this is process 3.1 inside the process 3");
+//   });
+// });
 
-console.log("b");
+// console.log("b");
 
 
 // Answer
@@ -148,7 +148,7 @@ console.log("b");
 
 // Activity 7
 
-/*
+
 console.log("a");
 setTimeout(() => {
   console.log("settimeout 1");
@@ -167,17 +167,17 @@ process.nextTick(() => {
 });
 
 console.log("b");
-*/
 
-/*
-    Answer
-    a
-    b
-    process 2
-    settimeout 1
-    process 1.1 inside settimeout 1
-    settimeout 2
-*/
+
+// Answer
+// a
+// b
+// process 2
+// settimeout 1
+// process 1.1 inside settimeout 1
+// settimeout 2
+
+
 
 // Activity 8
 /*
