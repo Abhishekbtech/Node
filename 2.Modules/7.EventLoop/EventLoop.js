@@ -1,9 +1,9 @@
 // Activity 1
 
 
-console.log("1");
-process.nextTick(() => console.log("this is process 1"));
-console.log("2");
+// console.log("1");
+// process.nextTick(() => console.log("this is process 1"));
+// console.log("2");
 
 
 /*
@@ -18,12 +18,11 @@ console.log("2");
 // Activity 2
 
 
-/*
 console.log("a");
 process.nextTick(() => console.log("this is process 1"));
 process.nextTick(() => console.log("this is process 2"));
 console.log("b");
-*/
+
 
 /*
     Answer
