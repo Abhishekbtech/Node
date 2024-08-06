@@ -207,27 +207,27 @@ console.log("b");
 // Activity 9
 
 
-const fs = require("node:fs");
+// const fs = require("node:fs");
 
-console.log("a");
+// console.log("a");
 
-fs.readFile("./file.txt", (error, data) => {
-  console.log("this is readfile 1");
-});
+// fs.readFile("./file.txt", (error, data) => {
+//   console.log("this is readfile 1");
+// });
 
-process.nextTick(() => {
-  console.log("this is process 1");
-});
+// process.nextTick(() => {
+//   console.log("this is process 1");
+// });
 
-Promise.resolve().then(() => {
-  console.log("this is promise 1");
-});
+// Promise.resolve().then(() => {
+//   console.log("this is promise 1");
+// });
 
-setTimeout(() => {
-  console.log("settimeout 1");
-}, 0);
+// setTimeout(() => {
+//   console.log("settimeout 1");
+// }, 0);
 
-console.log("b");
+// console.log("b");
 
 
 // a
@@ -241,7 +241,7 @@ console.log("b");
 
 // Activity 10
 
-/*
+
 const fs = require("node:fs");
 
 console.log("a");
@@ -256,24 +256,23 @@ process.nextTick(() => {
 
 setImmediate(() => {
   console.log("set immediate 1");
-},0);
+}, 0);
 
 fs.readFile("./file.txt", (error, data) => {
   console.log("this is readfile 1");
 });
 
 console.log("b");
-*/
 
-/*
-    Answer
-    a
-    b
-    process nexttick 1
-    set timeout 1
-    set immediate 1
-    this is readfile 1
-*/
+
+// a
+// b
+// process nexttick 1
+// set timeout 1
+// set immediate 1
+// this is readfile 1
+
+
 
 // Activity 11
 
