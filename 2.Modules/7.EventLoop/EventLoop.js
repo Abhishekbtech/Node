@@ -33,21 +33,21 @@
 // Activity 3
 
 
-console.log("a")
+// console.log("a")
 
-process.nextTick(() => {
-  console.log("this is process 1");
+// process.nextTick(() => {
+//   console.log("this is process 1");
 
-  process.nextTick(() => {
-    console.log("this is process 1.1 inside process 1");
-  });
-});
+//   process.nextTick(() => {
+//     console.log("this is process 1.1 inside process 1");
+//   });
+// });
 
-process.nextTick(() => {
-  console.log("this is process 2");
-});
+// process.nextTick(() => {
+//   console.log("this is process 2");
+// });
 
-console.log("b");
+// console.log("b");
 
 
 // Answer
@@ -61,7 +61,7 @@ console.log("b");
 
 // Activity 4
 
-/*
+
 console.log("a");
 
 Promise.resolve().then((data) => {
@@ -69,14 +69,14 @@ Promise.resolve().then((data) => {
 });
 
 console.log("b");
-*/
 
-/*
-    Answer
-    a
-    b
-    this is promise 1
-*/
+
+// Answer
+// a
+// b
+// this is promise 1
+
+
 
 // Activity 5
 
