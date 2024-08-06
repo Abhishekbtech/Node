@@ -80,7 +80,7 @@ console.log("b");
 
 // Activity 5
 
-/*
+
 console.log("a");
 
 process.nextTick(() => console.log("this is process 1"));
@@ -92,16 +92,16 @@ Promise.resolve().then((data) => {
 process.nextTick(() => console.log("this is process 2"));
 
 console.log("b");
-*/
 
-/*
-    Answer
-    a
-    b
-    this is process 1
-    this is process 2
-    this is Promise 1
-*/
+
+// Answer
+// a
+// b
+// this is process 1
+// this is process 2
+// this is Promise 1
+
+
 
 // Activity 6
 
