@@ -6,35 +6,35 @@
 // console.log("2");
 
 
-/*
-    Answer
-    1
-    2
-    this is procces 1
+// Answer
+// 1
+// 2
+// this is procces 1
 
-*/
 
 
 // Activity 2
 
 
-console.log("a");
-process.nextTick(() => console.log("this is process 1"));
-process.nextTick(() => console.log("this is process 2"));
-console.log("b");
+// console.log("a");
+// process.nextTick(() => console.log("this is process 1"));
+// process.nextTick(() => console.log("this is process 2"));
+// console.log("b");
 
 
-/*
-    Answer
-    a
-    b
-    process1
-    proceess2
-*/
+// Answer
+// a
+// b
+// process1
+// proceess2
+
+
 
 // Activity 3
-/*
-console.log("a");
+
+
+console.log("a")
+
 process.nextTick(() => {
   console.log("this is process 1");
 
@@ -42,21 +42,22 @@ process.nextTick(() => {
     console.log("this is process 1.1 inside process 1");
   });
 });
+
 process.nextTick(() => {
   console.log("this is process 2");
 });
 
 console.log("b");
-*/
 
-/*
-    Answer
-    a
-    b
-    this is process 1
-    this is process 2
-    this is process 1.1 inside process 1
-*/
+
+// Answer
+// a
+// b
+// this is process 1
+// this is process 2
+// this is process 1.1 inside process 1
+
+
 
 // Activity 4
 
