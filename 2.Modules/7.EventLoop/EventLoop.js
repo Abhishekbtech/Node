@@ -149,24 +149,24 @@ console.log("b");
 // Activity 7
 
 
-console.log("a");
-setTimeout(() => {
-  console.log("settimeout 1");
+// console.log("a");
+// setTimeout(() => {
+//   console.log("settimeout 1");
 
-  process.nextTick(() => {
-    console.log("process 1.1 inside settimeout 1");
-  });
-}, 0);
+//   process.nextTick(() => {
+//     console.log("process 1.1 inside settimeout 1");
+//   });
+// }, 0);
 
-setTimeout(() => {
-  console.log("settimeout 2");
-});
+// setTimeout(() => {
+//   console.log("settimeout 2");
+// });
 
-process.nextTick(() => {
-  console.log("process 2");
-});
+// process.nextTick(() => {
+//   console.log("process 2");
+// });
 
-console.log("b");
+// console.log("b");
 
 
 // Answer
@@ -180,7 +180,8 @@ console.log("b");
 
 
 // Activity 8
-/*
+
+
 const fs = require("node:fs");
 
 console.log("a");
@@ -194,17 +195,14 @@ setTimeout(() => {
 }, 0);
 
 console.log("b");
-*/
-
-/*
-    Answer:
-    a
-    b
-    settimeout
-    this is readfile 1
 
 
-*/
+// a
+// b
+// settimeout
+// this is readfile 1
+
+
 
 // Activity 9
 
