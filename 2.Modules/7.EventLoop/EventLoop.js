@@ -1,10 +1,10 @@
 // Activity 1
 
-/*
+
 console.log("1");
 process.nextTick(() => console.log("this is process 1"));
 console.log("2");
-*/
+
 
 /*
     Answer
@@ -14,7 +14,10 @@ console.log("2");
 
 */
 
+
 // Activity 2
+
+
 /*
 console.log("a");
 process.nextTick(() => console.log("this is process 1"));
@@ -198,7 +201,7 @@ console.log("b");
     Answer:
     a
     b
-    settimeout 
+    settimeout
     this is readfile 1
 
 
@@ -236,7 +239,7 @@ console.log("b");
     b
     this is process 1
     this is promise 1
-    settimeout 
+    settimeout
     this is readfile 1
 */
 
