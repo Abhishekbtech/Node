@@ -242,27 +242,27 @@ console.log("b");
 // Activity 10
 
 
-const fs = require("node:fs");
+// const fs = require("node:fs");
 
-console.log("a");
+// console.log("a");
 
-setTimeout(() => {
-  console.log("set timeout 1");
-});
+// setTimeout(() => {
+//   console.log("set timeout 1");
+// });
 
-process.nextTick(() => {
-  console.log("process nexttick 1");
-});
+// process.nextTick(() => {
+//   console.log("process nexttick 1");
+// });
 
-setImmediate(() => {
-  console.log("set immediate 1");
-}, 0);
+// setImmediate(() => {
+//   console.log("set immediate 1");
+// }, 0);
 
-fs.readFile("./file.txt", (error, data) => {
-  console.log("this is readfile 1");
-});
+// fs.readFile("./file.txt", (error, data) => {
+//   console.log("this is readfile 1");
+// });
 
-console.log("b");
+// console.log("b");
 
 
 // a
@@ -276,7 +276,7 @@ console.log("b");
 
 // Activity 11
 
-/*
+
 const fs = require("node:fs");
 
 console.log("a");
@@ -303,17 +303,11 @@ setImmediate(() => {
 
 console.log("b");
 
-*/
 
-/*
-    Answer
-    a
-    b
-    process nexttick 1
-    this is Promise 1
-    set timeout 1
-    set immediate 1
-    this is readfile 1
-
-
-*/
+// a
+// b
+// process nexttick 1
+// this is Promise 1
+// set timeout 1
+// set immediate 1
+// this is readfile 1
