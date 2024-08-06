@@ -81,17 +81,17 @@ console.log("b");
 // Activity 5
 
 
-console.log("a");
+// console.log("a");
 
-process.nextTick(() => console.log("this is process 1"));
+// process.nextTick(() => console.log("this is process 1"));
 
-Promise.resolve().then((data) => {
-  console.log("this is Promise 1");
-});
+// Promise.resolve().then((data) => {
+//   console.log("this is Promise 1");
+// });
 
-process.nextTick(() => console.log("this is process 2"));
+// process.nextTick(() => console.log("this is process 2"));
 
-console.log("b");
+// console.log("b");
 
 
 // Answer
@@ -105,7 +105,7 @@ console.log("b");
 
 // Activity 6
 
-/*
+
 console.log("a");
 
 setTimeout(() => {
@@ -131,21 +131,20 @@ process.nextTick(() => {
 });
 
 console.log("b");
-*/
 
-/*
-    Answer
-    a
-    b
-    process1
-    process2
-    process3
-    process3.1
 
-    settimeout 1
-    settimeout 2
-    settimeout 3
-*/
+// Answer
+// a
+// b
+// process1
+// process2
+// process3
+// process3.1
+// settimeout 1
+// settimeout 2
+// settimeout 3
+
+
 
 // Activity 7
 
