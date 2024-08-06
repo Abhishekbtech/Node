@@ -206,7 +206,7 @@ console.log("b");
 
 // Activity 9
 
-/*
+
 const fs = require("node:fs");
 
 console.log("a");
@@ -228,17 +228,16 @@ setTimeout(() => {
 }, 0);
 
 console.log("b");
-*/
 
-/*
-    Answer:
-    a
-    b
-    this is process 1
-    this is promise 1
-    settimeout
-    this is readfile 1
-*/
+
+// a
+// b
+// this is process 1
+// this is promise 1
+// settimeout
+// this is readfile 1
+
+
 
 // Activity 10
 
