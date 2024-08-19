@@ -62,13 +62,13 @@
 // Activity 4
 
 
-console.log("a");
+// console.log("a");
 
-Promise.resolve().then((data) => {
-  console.log("this is Promise 1");
-});
+// Promise.resolve().then((data) => {
+//   console.log("this is Promise 1");
+// });
 
-console.log("b");
+// console.log("b");
 
 
 // Answer
@@ -182,19 +182,19 @@ console.log("b");
 // Activity 8
 
 
-const fs = require("node:fs");
+// const fs = require("node:fs");
 
-console.log("a");
+// console.log("a");
 
-fs.readFile("./file.txt", (error, data) => {
-  console.log("this is readfile 1");
-});
+// fs.readFile("./file.txt", (error, data) => {
+//   console.log("this is readfile 1");
+// });
 
-setTimeout(() => {
-  console.log("settimeout ");
-}, 0);
+// setTimeout(() => {
+//   console.log("settimeout ");
+// }, 0);
 
-console.log("b");
+// console.log("b");
 
 
 // a
@@ -277,31 +277,31 @@ console.log("b");
 // Activity 11
 
 
-const fs = require("node:fs");
+// const fs = require("node:fs");
 
-console.log("a");
+// console.log("a");
 
-fs.readFile("./file.txt", (error, data) => {
-  console.log("this is readfile 1");
-});
+// fs.readFile("./file.txt", (error, data) => {
+//   console.log("this is readfile 1");
+// });
 
-process.nextTick(() => {
-  console.log("process nexttick 1");
-});
+// process.nextTick(() => {
+//   console.log("process nexttick 1");
+// });
 
-Promise.resolve().then((data) => {
-  console.log("this is Promise 1");
-});
+// Promise.resolve().then((data) => {
+//   console.log("this is Promise 1");
+// });
 
-setTimeout(() => {
-  console.log("set timeout 1");
-}, 0);
+// setTimeout(() => {
+//   console.log("set timeout 1");
+// }, 0);
 
-setImmediate(() => {
-  console.log("set immediate 1");
-});
+// setImmediate(() => {
+//   console.log("set immediate 1");
+// });
 
-console.log("b");
+// console.log("b");
 
 
 // a
